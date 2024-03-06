@@ -16,7 +16,7 @@ include = [
 ]
 
 [dependencies]
-cortex-m = "0.7"
+cortex-m = { git = "https://github.com/rust-embedded/cortex-m", rev = "ec6b3ba49db60b23885921d238d3a9e86cf3e9e9" }
 
 [dependencies.log]
 version = "0.4"
